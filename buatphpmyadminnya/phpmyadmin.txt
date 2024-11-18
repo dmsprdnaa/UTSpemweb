@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS kamar (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nomor_kamar VARCHAR(50) NOT NULL,
+    jenis_kamar VARCHAR(100) NOT NULL,
+    harga INT NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    deskripsi TEXT
+);
